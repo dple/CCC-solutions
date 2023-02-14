@@ -1,4 +1,3 @@
-from string import *
 if __name__ == '__main__':
     vowels = "aeiou"
     consonants = "bcdfghjklmnpqrstvwxyzz"
@@ -6,6 +5,7 @@ if __name__ == '__main__':
     word = input().strip()
 
     retword = ''
+
     for c in word:
         if c in vowels:
             retword += c
